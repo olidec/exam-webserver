@@ -1,6 +1,10 @@
 [
     {
         "id": 0,
-        "name": "Exam Webserver"
+        "name": "this text is bold"
+    },
+    {
+        "id": 1,
+        "name": "this is not bold"
     }
 ]
