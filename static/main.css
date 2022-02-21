@@ -16,7 +16,9 @@ body {
 #answers {
     margin-top: 2cm;
 }
-
+h1 {border: 2px solid green;
+    text-align: center;
+}
 #answers-list {
     margin-left: 20px;
 }
