@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #eeeeee;
+    background: grey;
 }
 
 .navbar {
@@ -34,10 +34,47 @@ td {
 
 .nav-item {
     list-style: none;
+
 }
 
 .nav-link {
     text-decoration: none;
 }
+
+h1{border-color: blue;
+    border-width: 3px;
+    border-style: solid ;
+    margin: 20px;
+    padding: 10px ; 
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+
+
+}
+
+#content {
+    background: lightblue;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px
+    padding: 15px;
+    font-size: small
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background: orangered;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
 
 
