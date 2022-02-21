@@ -2,19 +2,38 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+
 }
+
 
 body {
     background: #eeeeee;
 }
 
+h1 {
+    margin: 20px; 
+    padding: 20px;
+    border: solid;
+    border-color: rgb(152, 202, 152);
+    text-align: center;
+}
+
+#content {
+    margin: 50px 150px 50px 150px;
+    padding: 15px;
+    background-color: white;
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
+    background-color: rgb(152, 202, 152);
+    padding: 20px;
 }
 
 #answers {
     margin-top: 2cm;
+
 }
 
 #answers-list {
@@ -34,10 +53,12 @@ td {
 
 .nav-item {
     list-style: none;
+    font-size:large;
 }
 
 .nav-link {
     text-decoration: none;
+    color: white; 
 }
 
 
