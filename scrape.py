@@ -15,7 +15,7 @@ def main():
 
     print(f"{len(elements)} Element(s) were found.")
 
-    data = []
+    selectors = []
 
     for i, elem in enumerate(elements):
         data.append({"id": i, "name": elem.text.strip()})
