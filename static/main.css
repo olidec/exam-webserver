@@ -5,31 +5,42 @@
 }
 
 body {
-    background: rgb(236, 235, 235)
-    text-align: center;
-    margin: 250px 10px 250px 10px;
+    background-color: rgb(236, 235, 235)
 }
 
 h1  {
-    width: 100px;
-    background-color: rgb(123, 207, 137);
+    width: 1140px;
+    background-color:rgb(123, 207, 137) ;
     color: black;
-    margin: 100px;
-    padding: 25px 10px;
-}
-    
-#content  {
-   margin-left: 100px;
-    background-color:rgb(236, 235, 235)
-    color: black;
-    margin: 100px;
-    padding: 25px 10px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    outline: 10px 20px 20px 20px;
+    border-color: rgb(123, 207, 137) ;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-around;
+    
+#content  {
+     margin-left: 100px;
+     background-color:rgb(236, 235, 235)
+     padding: 25px 10px;
 }
+
+
+
+.navbar {
+    background-color: rgb(123, 207, 137);
+    text-align: center; 
+    color: black;
+    width: 1180px;
+    height: 40px;
+    margin-left: 200px;
+    margin: 0px;
+    padding: 10px;
+   
+}
+
+
 
 #answers {
     margin-top: 2cm;
@@ -41,6 +52,7 @@ h1  {
 
 ol li {
     margin-top: 5px;
+
 }
 
 td {
