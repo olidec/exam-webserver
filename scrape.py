@@ -12,6 +12,10 @@ def main():
 
     # select your objects
     elements = [elem for elem in soup.select('h1')]
+    table rows = [elem for elem in soup.select{'scrape-this'}] <strong>
+    
+     tag = doc.find ("<strong>")
+     print(tags.find_all("b"))
 
     print(f"{len(elements)} Element(s) were found.")
 
@@ -19,6 +23,7 @@ def main():
 
     for i, elem in enumerate(elements):
         data.append({"id": i, "name": elem.text.strip()})
+        selectors.append
 
     with open("data.json", 'w') as f:
         json.dump(data, f, indent=4)

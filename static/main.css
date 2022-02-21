@@ -4,15 +4,37 @@
     font-family: sans-serif;
 }
 
+h1 {
+    background-color: rgb(247, 240, 240);
+    text-align: center;
+    margin: 10px 250px 1opx 250px; 
+    padding: 20px;
+    border-color: rgb(87, 180, 87);
+    justify-content: space-around; 
+    border: solid, #66ce77;
+    box-shadow: rgb(89, 163, 89);
+}
 body {
-    background: #eeeeee;
+    background: #f8f3f3;
 }
 
 .navbar {
     display: flex;
     justify-content: space-around;
+    background-color: rgb(87, 179, 87);
+    width: 1000px ;
+    padding: 30px;
+    margin: 30px;
+    list-style: none;
+    border: 1px, rgb(87, 179, 87)
 }
 
+#content {
+    margin-left: 150px;
+    margin-top: -20px;
+    background-color: white;
+
+}
 #answers {
     margin-top: 2cm;
 }
@@ -40,4 +62,9 @@ td {
     text-decoration: none;
 }
 
-
+.selector-card {
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 5px;
+    width: 70%;
+}
