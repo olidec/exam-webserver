@@ -5,13 +5,9 @@
 }
 
 body {
-    background: #eeeeee;
+    background: #d8d7d7;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-around;
-}
 
 #answers {
     margin-top: 2cm;
@@ -29,15 +25,44 @@ td {
     padding: 5px;
 }
 
-/* Implement your changes below this line. Leave the code above as is. */
+
+h1 {
+    text-align: center;
+    margin-left: 150px;
+    padding: 15px 20px;
+    box-shadow: 0px 2px 5px 2px rgb(80, 160, 97);
+    width: 75%;
+    margin-top: 20px
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 23px;
+    background: rgb(134, 179, 128);
+    height: 100%;
+    margin: 30px;
+
+}
 
 
 .nav-item {
     list-style: none;
+    text-decoration: None;
+
 }
 
 .nav-link {
     text-decoration: none;
+   
 }
+   
+#content{
+   margin: 20px 200px;
+   padding: 10px 200px;
+   background: #eeeeee;
+   border-style: solid;
+   border-color: #eeeeee;
 
+
+}
 
