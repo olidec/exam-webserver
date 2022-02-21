@@ -7,18 +7,44 @@
 body {
     background: #eeeeee;
 }
+h1 {
+    text-align: center;
+    border: 3px solid green;
+    margin: 20px;
+    padding: 10px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
 
 .navbar {
     display: flex;
     justify-content: space-around;
+    background: green;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#content{
+    background: burlywood;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 15px;
+    font-size: small;
 }
 
 #answers {
     margin-top: 2cm;
+    color: fuchsia;
 }
 
 #answers-list {
     margin-left: 20px;
+    color: aqua;
 }
 
 ol li {
