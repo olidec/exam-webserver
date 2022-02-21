@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #eeeeee;
+    background: #eeeeeed7;
 }
 
 h1{
@@ -27,6 +27,11 @@ h1{
 .navbar {
     display: flex;
     justify-content: space-around;
+}
+
+#content {
+    background-color: white;
+    margin: 20px 150px;
 }
 
 #answers {
