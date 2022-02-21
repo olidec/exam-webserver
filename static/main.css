@@ -20,6 +20,8 @@ h1{
 
 #content {
     background-color: white;
+    padding: 20px;
+    margin: 50px 100px 50px 100px;
 }
 
 .navbar {
