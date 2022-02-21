@@ -15,8 +15,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-around;
-    margin: 50px;
-    background-color: rgb(26, 190, 67);
+    
     
 }
 
@@ -46,7 +45,7 @@ td {
     padding-top: 8px;
     padding-right: 20px;
     padding-bottom: 25px;
-    background-color: rgb(26, 190, 67);
+    background-color: rgb(123, 226, 149);
     font-size: x-large;
     
 }
