@@ -14,14 +14,14 @@ h1 {
     margin: 20px 150px 20px 150px;
     padding: 15px;
     border-color: green;
-    border-style: dashed;
+    border-style: dotted;
 }
 #content {
     background-color: white;
     margin-left: 250px;
     margin-top: 60px;
     margin: 10px 250px 10px 250px;
-    padding: 10px;
+    padding: 15px;
 }
 
 .navbar {
@@ -31,6 +31,10 @@ h1 {
     padding: 15px;
     border-color: rgb(10, 148, 10);
     
+}
+
+.nav-link {
+    color: white;
 }
 
 #answers {
