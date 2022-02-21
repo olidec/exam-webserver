@@ -31,3 +31,13 @@ def scraping():
 # starts the webserver
 if __name__ == "__main__":
     app.run()
+
+@app.route("/scraping")
+def home(webscraping):
+    return render_template("scraping.html")
+
+@app.route("/results")
+def results():
+my_scraper(
+    return render template("results.html)
+)
