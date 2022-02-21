@@ -5,10 +5,39 @@
 }
 
 body {
-    background: #eeeeee;
+    background: lightgrey;
 }
 
+h1 {
+text-align: center;
+margin: 20px;
+padding: 20px 10px 20px 10px;
+border: 5px solid green;
+
+}
+
+
 .navbar {
+    background: green;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  
+}
+ 
+h1 {
+    text-align: center;
+    border: 3px solid green;
+    margin: 20px;
+    padding: 10px;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+.navbar {
+    background: green;
+    padding: 15px;
     display: flex;
     justify-content: space-around;
 }
@@ -26,17 +55,28 @@ ol li {
 }
 
 td {
-    padding: 5px;
+    padding: 10px;
 }
 
 /* Implement your changes below this line. Leave the code above as is. */
 
 
+#content {
+
+    margin-left: 150px;
+margin-top: 30px;
+padding: 40px;
+background-color:white;
+margin-right: 100px;
+font-size: large;
+
+}
 .nav-item {
     list-style: none;
 }
 
 .nav-link {
+    color: white;
     text-decoration: none;
 }
 
