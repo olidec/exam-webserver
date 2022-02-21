@@ -5,7 +5,25 @@
 }
 
 body {
-    background: #eeeeee;
+    background: rgb(236, 235, 235)
+    text-align: center;
+    margin: 250px 10px 250px 10px;
+}
+
+h1  {
+    width: 100px;
+    background-color: rgb(123, 207, 137);
+    color: black;
+    margin: 100px;
+    padding: 25px 10px;
+}
+    
+#content  {
+   margin-left: 100px;
+    background-color:rgb(236, 235, 235)
+    color: black;
+    margin: 100px;
+    padding: 25px 10px;
 }
 
 .navbar {
