@@ -13,7 +13,7 @@ def main():
     # select your objects
     elements = [elem for elem in soup.select('h1')]
 
-    print(f"{len(elements)} Element(s) were found.")
+    print(f"{len(bold)} Element(s) were found.")
 
     data = []
 

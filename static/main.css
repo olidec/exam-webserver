@@ -5,8 +5,26 @@
 }
 
 body {
-    background: #eeeeee;
+    background: #d8d7d7;
 }
+
+
+#answers {
+    margin-top: 2cm;
+}
+
+#answers-list {
+    margin-left: 20px;
+}
+
+ol li {
+    margin-top: 5px;
+}
+
+td {
+    padding: 5px;
+}
+
 
 h1 {
     text-align: center;
@@ -26,24 +44,6 @@ h1 {
 
 }
 
-#answers {
-    margin-top: 2cm;
-}
-
-#answers-list {
-    margin-left: 20px;
-}
-
-ol li {
-    margin-top: 5px;
-}
-
-td {
-    padding: 5px;
-}
-
-/* Implement your changes below this line. Leave the code above as is. */
-
 
 .nav-item {
     list-style: none;
@@ -55,5 +55,14 @@ td {
     text-decoration: none;
    
 }
+   
+#content{
+   margin: 20px 200px;
+   padding: 10px 200px;
+   background: #eeeeee;
+   border-style: solid;
+   border-color: #eeeeee;
 
+
+)
 

@@ -18,6 +18,9 @@ def load_selectors():
 def home():
     return render_template("index.html")
 
+@app.route("/results")
+def results():
+    return render_template("results.html")
 
 @app.route("/scraping")
 def scraping():
