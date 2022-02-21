@@ -10,13 +10,13 @@ body {
 
 h1 {
     text-align: center;
-border: 3px solid green;
-margin: 20px;
-padding: 10px;
+border: 3px solid rgb(211, 169, 32);
+margin: 100px;
+padding: 80px;
 }
 
 .nav-link { 
-    color: white;
+    color: rgb(231, 56, 56);
     text-decoration: none;
 }
 
@@ -24,18 +24,18 @@ padding: 10px;
 .navbar {
     display: flex;
     justify-content: space-around;
-    background: green;
+    background: rgb(58, 65, 136);
     padding: 15px;
     justify-content: space-around;
  
 }
 
 #content {
-    background: rgb(214, 212, 211);
-    margin-top: 30px;
-    margin-left: 80px;
+    background: rgb(38, 240, 223);
+    margin-top: 10px;
+    margin-left: 110px;
     margin-right: 80px;
-    padding: 15px;
+    padding: 35px;
     font-size: small
 
 
