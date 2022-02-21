@@ -20,6 +20,8 @@ def home():
 
 
 @app.route("/scraping")
+def home():
+    return render_template("results.html")
 def scraping():
     data = [
         {"strong": True, "content": "this text is bold"},
@@ -31,3 +33,31 @@ def scraping():
 # starts the webserver
 if __name__ == "__main__":
     app.run()
+# import necessary modules
+from bs4 import BeautifulSoup
+import requests
+import json
+
+
+def main():
+    # get the URL in a useable form
+    url = "http://local-host5000-scraping"
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'html.parser')
+
+
+    elements = [elem for elem in soup.select('h1')]
+
+    print(f"{len(elements)} Element(s) were found.")
+
+    data = []
+
+    for i, elem in enumerate(elements):
+        data.append({"id": i, "name": elem.text.strip()})
+
+    with open("data.json", 'w') as f:
+        json.dump(data, f, indent=4)
+
+
+if __name__ == "__main__":
+    main()
