@@ -27,8 +27,14 @@ h1{
     justify-content: space-around;
     background-color: rgb(135, 209, 157);
     padding: 30px;
-    color: white;
 }
+
+.nav-link {
+    color: #eeeeee;
+    font-size: large;
+    font-weight: 800;
+}
+
 
 #answers {
     margin-top: 2cm;
