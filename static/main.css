@@ -8,10 +8,35 @@ body {
     background: #eeeeee;
 }
 
+h1{
+    text-align: center;
+    margin: 25px;
+    padding: 10px;
+    border: 10px;
+    border-style: solid;
+    border-width: medium;
+   border-color: rgb(135, 209, 157);
+}
+
+#content {
+    background-color: white;
+    padding: 20px;
+    margin: 50px 100px 50px 100px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
+    background-color: rgb(135, 209, 157);
+    padding: 30px;
 }
+
+.nav-link {
+    color: #eeeeee;
+    font-size: large;
+    font-weight: 800;
+}
+
 
 #answers {
     margin-top: 2cm;
