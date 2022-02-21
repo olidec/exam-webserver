@@ -34,10 +34,20 @@ td {
 
 .nav-item {
     list-style: none;
+
 }
 
 .nav-link {
     text-decoration: none;
+}
+
+h1{border-color: green;
+    border-width: 3px;
+    border-style: solid;
+    margin: 10px;
+    text-align: center;
+
+
 }
 
 
