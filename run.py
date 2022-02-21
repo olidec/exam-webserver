@@ -9,7 +9,7 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 
 def load_selectors():
-    with open("selectors.json", 'r') as f:
+    with open("data.json", 'r') as f:
         return json.load(f)
 
 
@@ -19,6 +19,11 @@ def home():
     return render_template("index.html")
 
 
+# define route(s)
+@app.route("/results")
+def results():
+    return render_template("results.html")
+
 @app.route("/scraping")
 def scraping():
     data = [
@@ -26,6 +31,11 @@ def scraping():
         {"strong": False, "content": "this is not bold"},
     ]
     return render_template("scraping.html", table=data)
+
+@app.route("/css-selectors")
+def css_selectors():
+    return render_template("css-selectors.html", selectors=load_selectors())
+
 
 
 # starts the webserver
