@@ -1,4 +1,4 @@
-# import necessary modules
+# import necessafrom bs4 import BeautifulSoup
 from bs4 import BeautifulSoup
 import requests
 import json
@@ -11,7 +11,7 @@ def main():
     soup = BeautifulSoup(response.content, 'html.parser')
 
     # select your objects
-    elements = [elem for elem in soup.select('h1')]
+    elements = [elem for elem in soup.select('td')]
 
     print(f"{len(elements)} Element(s) were found.")
 
@@ -26,3 +26,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
