@@ -11,7 +11,7 @@ def main():
     soup = BeautifulSoup(response.content, 'html.parser')
 
     # select your objects
-    elements = [elem for elem in soup.select('h1')]
+    elements = [elem for elem in soup.select('strong')]
 
     print(f"{len(elements)} Element(s) were found.")
 
