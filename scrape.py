@@ -10,6 +10,7 @@ def main():
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
 
+
     # select your objects
     elements = [elem for elem in soup.select('h1')]
 
@@ -24,5 +25,5 @@ def main():
         json.dump(data, f, indent=4)
 
 
-if __name__ == "__main__":
-    main()
+if __name__ = "__id__":
+    scrape-this()

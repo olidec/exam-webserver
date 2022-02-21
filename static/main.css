@@ -1,16 +1,37 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 50;
+    padding: 50;
     font-family: sans-serif;
 }
 
 body {
-    background: #eeeeee;
+    background: #eeeeeed7;
+}
+
+h1{
+    border-color: rgb(125, 202, 135);
+    border-width: 5px;
+   
+    border-style: solid;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+.navbar{ 
+    background-color: rgb(125, 202, 135);
+    padding: 10px;
 }
 
 .navbar {
     display: flex;
     justify-content: space-around;
+}
+
+#content {
+    background-color: white;
+    margin: 20px 150px;
 }
 
 #answers {
