@@ -10,7 +10,12 @@ body {
 
 h1{
     text-align: center;
-    padding: 40px;
+    margin: 20px;
+    padding: 5px;
+    border: 10px;
+    border-style: solid;
+    border-width: medium;
+   border-color: rgb(135, 209, 157);
 }
 
 #content {
