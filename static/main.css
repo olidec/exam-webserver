@@ -43,5 +43,6 @@ td {
 .nav-link {
     text-decoration: none;
 }
+.navbar { background-color: green;}
 
-
+.nav-link {color: white;}
