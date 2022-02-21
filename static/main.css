@@ -5,13 +5,42 @@
 }
 
 body {
-    background: #eeeeee;
+    background-color: rgb(236, 235, 235)
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-around;
+h1  {
+    width: 1140px;
+    background-color:rgb(123, 207, 137) ;
+    color: black;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    outline: 10px 20px 20px 20px;
+    border-color: rgb(123, 207, 137) ;
 }
+
+    
+#content  {
+     margin-left: 100px;
+     background-color:rgb(236, 235, 235)
+     padding: 25px 10px;
+}
+
+
+
+.navbar {
+    background-color: rgb(123, 207, 137);
+    text-align: center; 
+    color: black;
+    width: 1180px;
+    height: 40px;
+    margin-left: 200px;
+    margin: 0px;
+    padding: 10px;
+   
+}
+
+
 
 #answers {
     margin-top: 2cm;
@@ -23,6 +52,7 @@ body {
 
 ol li {
     margin-top: 5px;
+
 }
 
 td {
