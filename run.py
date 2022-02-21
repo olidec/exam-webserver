@@ -14,6 +14,11 @@ def load_selectors():
 
 
 # define route(s)
+@app.route("/kek")
+def kek():
+    return render_template("kek.html")
+
+# define route(s)
 @app.route("/")
 def home():
     return render_template("index.html")
