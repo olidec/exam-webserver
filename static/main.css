@@ -1,11 +1,19 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 50;
+    padding: 50;
     font-family: sans-serif;
 }
 
 body {
     background: #eeeeee;
+}
+
+h1{
+   background-color: white;
+   text-align: center;
+   margin: 10px 10px 10px 10px;
+   padding: 10px;
+   
 }
 
 .navbar {
