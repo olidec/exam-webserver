@@ -5,8 +5,9 @@
 }
 
 body {
-    background: #eeeeee;
+    background: #b9b5b5;
 }
+
 
 .navbar {
     display: flex;
@@ -30,6 +31,33 @@ td {
 }
 
 /* Implement your changes below this line. Leave the code above as is. */
+h1{
+    margin: 20px 20px;
+    padding: 10px 100px;
+    background-color:#eeeeee; 
+    font-family: sans-serif;
+    text-align: center;
+    border-height 250px;
+    border-style:solid;
+    border-color: green;
+    
+}
+ul{ margin: 20px 20px;
+    padding: 10px 100px;
+    background-color: green; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-style:solid;
+    border-color: green;
+
+}
+#content{
+    margin: 20px 200px;
+    padding: 10px 250px;
+    background-color: #eeeeee;
+    border-style: solid;
+    border-color: #eeeeee;
+}
 
 
 .nav-item {
