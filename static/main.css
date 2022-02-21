@@ -5,13 +5,14 @@
 }
 
 body {
-    background: #eeeeee;
+    background: #fa0a0a;
 }
 h1 {
-    text-align: center;
-    border: 3px solid green;
-    margin: 20px;
-    padding: 10px;
+    color: black;
+    text-align: right;
+    border: 3px dashed green;
+    margin: 5px;
+    padding: 15px;
 }
 
 .nav-link {
@@ -22,7 +23,7 @@ h1 {
 .navbar {
     display: flex;
     justify-content: space-around;
-    background: green;
+    background: rgb(166, 201, 166);
     padding: 15px;
     display: flex;
     justify-content: space-around;
@@ -33,7 +34,7 @@ h1 {
     margin-top: 30px;
     margin-left: 80px;
     margin-right: 80px;
-    padding: 15px;
+    padding: 10px;
     font-size: small;
 }
 
