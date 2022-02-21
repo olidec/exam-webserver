@@ -4,7 +4,7 @@ import requests
 import json
 
 
-def main():
+def my_scraper():
     # get the URL in a useable form
     url = "http://localhost:5000/scraping"
     response = requests.get(url)
