@@ -5,20 +5,47 @@
 }
 
 body {
-    background: #eeeeee;
+    background: #fa0a0a;
+}
+h1 {
+    color: black;
+    text-align: right;
+    border: 3px dashed green;
+    margin: 5px;
+    padding: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
 }
 
 .navbar {
     display: flex;
     justify-content: space-around;
+    background: rgb(166, 201, 166);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#content{
+    background: burlywood;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 10px;
+    font-size: small;
 }
 
 #answers {
     margin-top: 2cm;
+    color: fuchsia;
 }
 
 #answers-list {
     margin-left: 20px;
+    color: aqua;
 }
 
 ol li {
