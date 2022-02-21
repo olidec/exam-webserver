@@ -26,3 +26,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+{% extends "base.html" %}
+ {% block content %}
+  {% for entry in data %} 
+  {{ entry.id }} {% endfor %} {% endblock %}
+
