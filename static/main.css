@@ -19,7 +19,7 @@ body {
 h1 {border: 2px solid green;
     text-align: center;
     margin: 20px;
-    padding: 20px;
+    padding: 15px;
 }
 #answers-list {
     margin-left: 20px;
@@ -47,4 +47,11 @@ td {
 padding-top: 20px;
 padding-bottom: 20px;}
 
-.nav-link {color: white;}
+#content {background-color: white;
+margin: 30px 100px 30px 100px;
+padding: 15px;}
+
+
+.nav-link {color: white;
+    font-weight: bold;
+}
