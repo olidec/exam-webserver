@@ -28,6 +28,6 @@ def scraping():
     return render_template("scraping.html", table=data)
 
 
-# starts the webserver
+# starts the webserve
 if __name__ == "__main__":
     app.run()

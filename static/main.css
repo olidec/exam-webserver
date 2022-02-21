@@ -8,9 +8,21 @@ body {
     background: #eeeeee;
 }
 
+h1{
+    text-align: center;
+    padding: 40px;
+}
+
+#content {
+    background-color: white;
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
+    background-color: rgb(135, 209, 157);
+    padding: 30px;
+    color: white;
 }
 
 #answers {
