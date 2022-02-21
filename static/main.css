@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #eeeeee;
+    background: #ecebeb;
 }
 
 .navbar {
@@ -41,3 +41,63 @@ td {
 }
 
 
+
+
+
+
+
+h1 {
+
+    text-align: center;
+    border: 3px solid rgb(6, 185, 6);
+    padding: 10px;
+    margin: 20px;
+
+}
+
+
+
+.nav-link {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+
+
+
+.navbar {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    background: rgb(3, 219, 3);
+
+    padding: 15px;
+
+    justify-content: space-around;
+
+ 
+
+}
+
+
+
+#content {
+
+    background: white;
+
+    margin-top: 40px;
+
+    margin-left: 100px;
+
+    margin-right: 100px;
+    
+    font-size: small ;
+    
+    padding: 15px;
+
+}
