@@ -5,12 +5,13 @@
 }
 
 body {
-    background: #eeeeee;
+    background-color: aliceblue;
 }
 
 .navbar {
     display: flex;
     justify-content: space-around;
+    background-color: red;
 }
 
 #answers {
@@ -41,7 +42,7 @@ td {
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
     border: 3px solid green;
     margin: 20px;
     padding: 10px;
