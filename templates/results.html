@@ -1,14 +1,10 @@
 
-    if name == "main":
-    main()
 {% extends "base.html" %}
 {% block content %}
-<h2>Click <a href="/results">here</a> to show results</h2>
-<h2>Click <a href="/css-selectors">here</a> to display the results</h2>
-
-
+    Hello
     {% for entry in data %}
-        {{ entry.id }}
+        hello
+        {{ entry.name }}
     {% endfor %}
 {% endblock %}
 

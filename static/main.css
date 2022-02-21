@@ -25,7 +25,22 @@ border: 5px solid green;
   
 }
  
-
+h1 {
+    text-align: center;
+    border: 3px solid green;
+    margin: 20px;
+    padding: 10px;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+.navbar {
+    background: green;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
 
 #answers {
     margin-top: 2cm;
@@ -61,7 +76,7 @@ font-size: large;
 }
 
 .nav-link {
-    color:red;
+    color: white;
     text-decoration: none;
 }
 

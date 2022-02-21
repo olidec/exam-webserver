@@ -1,7 +1,8 @@
-# import necessary modules
 from bs4 import BeautifulSoup
 import requests
 import json
+
+
 def main():
     # get the URL in a useable form
     url = "http://localhost:5000/scraping"
@@ -22,7 +23,7 @@ def main():
         json.dump(data, f, indent=4)
 
 
-if name == "main":
+if __name__ == "__main__":
     main()
 
 

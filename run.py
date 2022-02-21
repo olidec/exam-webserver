@@ -22,7 +22,17 @@ def home():
 # define route(s)
 @app.route("/results")
 def results():
-    return render_template("results.html")
+    data = [
+    {
+        "id": 0,
+        "name": "this text is bold"
+    },
+    {
+        "id": 1,
+        "name": "this is not bold"
+    }
+    ]
+    return render_template("results.html", data=load_selectors())
 
 @app.route("/scraping")
 def scraping():
@@ -30,7 +40,7 @@ def scraping():
         {"strong": True, "content": "this text is bold"},
         {"strong": False, "content": "this is not bold"},
     ]
-    return render_template("scraping.html", table=data)
+    return render_template("scraping.html", data=data)
 
 @app.route("/css-selectors")
 def css_selectors():
