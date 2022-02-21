@@ -1,16 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 2px;
+    padding: 2px;
     font-family: sans-serif;
+
 }
 
 body {
     background: #eeeeee;
 }
 
+
+
+
 .navbar {
     display: flex;
     justify-content: space-around;
+    
+    
 }
 
 #answers {
@@ -34,10 +40,19 @@ td {
 
 .nav-item {
     list-style: none;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    background-color: rgb(123, 226, 149);
+    font-size: x-large;
+    
 }
 
 .nav-link {
     text-decoration: none;
+    color: rgb(247, 245, 245);
 }
 
 

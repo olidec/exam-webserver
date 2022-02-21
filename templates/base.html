@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
 </head>
 <body>
-    <h1>Exam Webserver</h1>
+    <center><h1>Exam Webserver</h1></center>
     <ul class="navbar">
         <li class="nav-item">
             <a class="nav-link" href="/">Home</a>
@@ -16,10 +16,44 @@
         <li class="nav-item">
             <a class="nav-link" href="/scraping">Scraping</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/my new page">my new page</a>
+        </li>
     </ul>
     <div id="content">
     {% block content %}
     {% endblock %}
     </div>
 </body>
+
+<style>
+
+
+h1 {
+    width: 100%;
+    color: black;
+    margin: 10px;
+    padding: 20px 10px;
+    border: 5px solid rgb(123, 226, 149);;
+}
+
+h2{
+margin: 20px 20px 20px 20px
+
+}
+
+.navbar{
+    margin: 20px 20px 20px 20px;
+    background-color: rgb(123, 226, 149);
+}
+
+
+#content {
+    margin-left: 120px;
+    margin-top: 80px;
+    padding: 15px 15px;
+    box-shadow: 5px 5px 5px 5px ;
+}
+
+</style>
 </html>
