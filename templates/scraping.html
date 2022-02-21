@@ -6,13 +6,13 @@
         <tr>
             <td class="scrape-this">
                 {% if row.strong %}
-                <strong> {{ row.content }} </strong>
+                <strong> {{ row.strong }} </strong>
                 {% else %}
                 {{ row.content }}
                 {% endif %}
             </td>
             <td>
-                Second Column
+                First Column
             </td>
         <tr>
         {% endfor %}
