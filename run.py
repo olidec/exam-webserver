@@ -28,7 +28,8 @@ def scraping():
     return render_template("scraping.html", table=data)
 
 @app.route("/results")
-
+def main():
+    return render_template("results.html")
 
 
 # starts the webserver
