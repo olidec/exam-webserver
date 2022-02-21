@@ -2,8 +2,6 @@
 from bs4 import BeautifulSoup
 import requests
 import json
-
-
 def main():
     # get the URL in a useable form
     url = "http://localhost:5000/scraping"
@@ -11,7 +9,7 @@ def main():
     soup = BeautifulSoup(response.content, 'html.parser')
 
     # select your objects
-    elements = [elem for elem in soup.select('h1')]
+    elements = [elem for elem in soup.select('.scrape-this')]
 
     print(f"{len(elements)} Element(s) were found.")
 
@@ -24,5 +22,7 @@ def main():
         json.dump(data, f, indent=4)
 
 
-if __name__ == "__main__":
+if name == "main":
     main()
+
+
