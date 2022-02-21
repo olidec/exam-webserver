@@ -40,4 +40,28 @@ td {
     text-decoration: none;
 }
 
+h1 {
+    text-align: center;
+    border: 3px solid green;
+    margin: 20px;
+    padding: 10px;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+.navbar {
+    background: green;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
 
+#content {
+    background: #ffffff;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 15px;
+    font-size: small;
+}
