@@ -18,6 +18,8 @@ body {
 }
 h1 {border: 2px solid green;
     text-align: center;
+    margin: 20px;
+    padding: 20px;
 }
 #answers-list {
     margin-left: 20px;
