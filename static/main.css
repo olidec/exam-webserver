@@ -5,12 +5,36 @@
 }
 
 body {
-    background: #eeeeee;
+    background: #e7e2e2;
+}
+
+h1 {
+    background-color: rgb(238, 227, 227);
+    text-align: center;
+    margin: 20px 150px 20px 150px;
+    padding: 15px;
+    border-color: green;
+    border-style: solid;
+}
+#content {
+    background-color: white;
+    margin-left: 250px;
+    margin-top: 60px;
+    margin: 10px 250px 10px 250px;
+    padding: 15px;
 }
 
 .navbar {
+    background-color: rgb(75, 155, 75);
     display: flex;
     justify-content: space-around;
+    padding: 15px;
+    border-color: rgb(69, 153, 69);
+    
+}
+
+.nav-link {
+    color: white;
 }
 
 #answers {
