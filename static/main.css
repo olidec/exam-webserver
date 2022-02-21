@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #eeeeee;
+    background: grey;
 }
 
 .navbar {
@@ -41,7 +41,7 @@ td {
     text-decoration: none;
 }
 
-h1{border-color: green;
+h1{border-color: blue;
     border-width: 3px;
     border-style: solid ;
     margin: 20px;
@@ -54,18 +54,19 @@ h1{border-color: green;
 }
 
 #content {
-    background: white;
+    background: lightblue;
     margin-top: 30px;
-    margin-left: 80px;
-    margin-right: 80px
+    margin-left: 40px;
+    margin-right: 40px
     padding: 15px;
     font-size: small
+    text-align: center;
 }
 
 .navbar {
     display: flex;
     justify-content: space-around;
-    background: green;
+    background: orangered;
     padding: 15px;
     justify-content: space-around;
 }
