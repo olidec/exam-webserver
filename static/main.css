@@ -5,11 +5,11 @@
 }
 
 body {
-    background: #eeeeeed7;
+    background: #3fcd14d7;
 }
 
 h1{
-    border-color: rgb(125, 202, 135);
+    border-color: rgb(24, 94, 33);
     border-width: 5px;
    
     border-style: solid;
@@ -20,7 +20,7 @@ h1{
 }
 
 .navbar{ 
-    background-color: rgb(125, 202, 135);
+    background-color: #36961992;
     padding: 10px;
 }
 
@@ -30,7 +30,7 @@ h1{
 }
 
 #content {
-    background-color: white;
+    background-color: #36961992;
     margin: 20px 150px;
 }
 
