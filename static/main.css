@@ -1,20 +1,38 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 50;
+    padding: 50;
     font-family: sans-serif;
 }
 
 body {
-    background: #eeeeee;
+    background: #3fcd14d7;
 }
+
+h1{
+    background-color: #4d6dfebe;
+    border-color: rgb(24, 94, 33);
+    border-width: 5px;  
+    
+    border-style: solid;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    text-align: center;
+   
+}
+
 
 .navbar {
     display: flex;
     justify-content: space-around;
 }
 
+#content {
+    background-color: #4d6dfebe;
+    margin: 20px 150px;
+}
+
 #answers {
-    margin-top: 2cm;
+    margin-top: 5cm;
 }
 
 #answers-list {
